@@ -1,7 +1,7 @@
 import React, { useReducer, useRef, useState } from 'react'
 import{Center, Gltf, MeshDistortMaterial, MeshWobbleMaterial, OrbitControls, useHelper} from '@react-three/drei'
 import { DirectionalLight, DirectionalLightHelper } from 'three'
-import { useFrame, useLoader } from '@react-three/fiber'
+import { useFrame, useLoader, Canvas } from '@react-three/fiber'
 import { useControls } from 'leva' 
 import Tv from '../Models/Tv'
 
@@ -118,7 +118,9 @@ function Scene() {
 export default function Experience() {
   return (
     <>
-      <Scene></Scene>
+      <Canvas>
+        <Scene></Scene>
+      </Canvas>
     </>
   )
 }

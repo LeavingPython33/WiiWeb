@@ -1,0 +1,38 @@
+.screenBackground{
+    background-color: black;
+    overflow: hidden;
+}
+
+.slideColor{
+    background-color: white;
+}
+
+.footer{
+    background-color: gray;
+    height: 173px;
+    flex: 0, 0, 100%;
+}
+
+.exitButton{
+    position: sticky;
+    width: fit-content;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: 32px;
+}
+
+.powerIcon{
+    font-size: 48px;
+}
+
+.displayBox{
+    background-color: white;
+    width: 300px;
+    height: 9em;
+    border-color: gray;
+    flex: 0, 0, 100%;
+}
+.break {
+    flex-basis: 100%;
+    height: 0;
+  }
